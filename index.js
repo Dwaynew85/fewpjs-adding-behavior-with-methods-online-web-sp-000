@@ -11,14 +11,18 @@ class Cat {
 }
 
 class Dog {
-  constructors(name, sex) {
+  constructor(name, sex) {
     this.name = name;
     this.sex = sex;
+  }
+
+  speak() {
+    return `${this.name} says woof!`
   }
 }
 
 class Bird {
-  constructors(name, sex) {
+  constructor(name, sex) {
     this.name = name;
     this.sex = sex;
   }
